@@ -250,7 +250,7 @@ const About = () => {
 
             color: "#4fc3f7",
 
-            items: skills.devops,
+            items: [...skills.devops, ...skills.tools],
 
           },
 
@@ -260,7 +260,7 @@ const About = () => {
 
             color: "#ffd700",
 
-            items: [...skills.frontend, ...skills.tools],
+            items: skills.frontend,
 
           },
 

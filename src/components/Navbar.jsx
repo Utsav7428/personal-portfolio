@@ -71,7 +71,7 @@ const NavBar = () => {
               href="/resume.pdf"
               download
               rightIcon={<TiLocationArrow />}
-              containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
+              containerClass="bg-blue-50 flex items-center justify-center gap-1"
             />
           </div>
 
